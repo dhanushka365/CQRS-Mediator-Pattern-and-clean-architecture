@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS, Mediator Pattern and clean architecture", "CQRS, Mediator Pattern and clean architecture\CQRS, Mediator Pattern and clean architecture.csproj", "{23B17020-D09B-4E03-B98B-042524121013}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Application", "CleanArch.Application", "{669BBAEF-A6B3-4EFC-812A-255CCCB5CC64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Domain", "CleanArch.Domain", "{E2B6EAB0-32FD-43C5-A0AB-F4D693A95EDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC", "{D8D7C559-FEAF-4DE1-A304-9A2BB31B6B9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data", "{6C0231EB-87BA-47CB-9C72-7371EFCB156E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanArch.UI.Mvc", "{C0B8CEEA-9C20-4D2F-9A67-257C2ECFAF1B}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23B17020-D09B-4E03-B98B-042524121013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23B17020-D09B-4E03-B98B-042524121013}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23B17020-D09B-4E03-B98B-042524121013}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23B17020-D09B-4E03-B98B-042524121013}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
